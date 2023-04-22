@@ -21,4 +21,8 @@ export class AppComponent {
   showHide(): boolean {
     return (this.show = !this.show)
   }
+
+  onLike(){
+    console.log('like pressed');
+  }
 }
