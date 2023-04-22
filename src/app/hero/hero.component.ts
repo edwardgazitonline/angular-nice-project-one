@@ -7,7 +7,8 @@ import { Component, EventEmitter, OnInit , Output  } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
-  @Output() edd  = new EventEmitter();
+  @Output() L
+  liked  = new EventEmitter();
 
   constructor() { }
 
