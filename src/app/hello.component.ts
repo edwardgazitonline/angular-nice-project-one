@@ -3,7 +3,9 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'hello',
   template: `<h1>Hello {{name}}!</h1>
-  <p color:green >Hello from hello.component.ts</p>
+  <div font color:red>
+  <p>Hello from hello.component.ts</p>
+  </div>
   `,
   styles: [`h1 { font-family: Lato; }`]
 })
