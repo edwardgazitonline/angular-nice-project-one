@@ -1,24 +1,7 @@
 <a>Event binding with Button ! </a>
-<p><button (click)="onShow()">Event Binding With Button</button></p>
-<p>This button triggers Alert Window</p>
-<p><button (click)="showHide()">showHide</button></p>
-<p>This Button is a little more complicated</p>
 
-<p><font color="red">Here is the output area:--</font></p>
-<br>
-<!--
-
-    <div *ngIf="showHide()" > 
-    <strong>List Saved!</strong> Your changes has been saved.
-  </div>
--->
-<div *ngIf="showHide()">Your changes has been saved.</div>
-<p *ngIf="showHide()">This is visible</p>
-<p [hidden]="!showHide()">Test with [hidden] property binding</p>
-<img src="https://dbkh.s3.us-west-2.amazonaws.com/wp-content/uploads/2022/11/21124713/Frontline-in-the-Kherson-region-11.22-800x445.jpg" width="100" height="100" [hidden]="!showHide()">
-<hello></hello>
-<br/>
 <app-hero></app-hero>
+<br/>
 <button (click)="onLike()">Liked</button>
 
 
