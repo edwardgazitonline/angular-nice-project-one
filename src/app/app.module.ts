@@ -9,7 +9,7 @@ import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent , HeroComponent ],
+  declarations: [ AppComponent, HelloComponent , HeroComponent , AppRoutingModule ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
